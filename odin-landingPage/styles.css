@@ -34,3 +34,16 @@ header{
 #nav-links > a{
     margin: 12px;
 }
+
+#hero{
+    display: flex;
+    justify-content: center;
+}
+
+#hero > #hero-section{
+    border: 1px solid black;
+    display: flex;
+    flex-basis: 75%;
+}
+
+
