@@ -43,7 +43,21 @@ header{
 #hero > #hero-section{
     border: 1px solid black;
     display: flex;
+    flex-direction: row;
     flex-basis: 75%;
+}
+
+#hero-section > #hero-cta{
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+#hero-cta > div{
+    border: 1px solid black;
+}
+
+#hero-section > #hero-image{
+    border: 1px solid black;
 }
 
 
