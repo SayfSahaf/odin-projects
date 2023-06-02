@@ -38,26 +38,47 @@ header{
 #hero{
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 
 #hero > #hero-section{
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     flex-basis: 75%;
+    border: 1px solid black;
 }
 
 #hero-section > #hero-cta{
-    border: 1px solid black;
     flex-direction: column;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 #hero-cta > div{
-    border: 1px solid black;
+    margin: 8px;
+}
+
+#hero-cta > #cta-main{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#hero-cta > #cta-button > button{
+    padding: 9px;
+    font-weight: bold;
+    border-radius: 0.45rem;
 }
 
 #hero-section > #hero-image{
-    border: 1px solid black;
+    margin: 4px;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-image > img{
+    border-radius: 0.75rem;
 }
 
 
