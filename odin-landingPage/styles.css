@@ -2,9 +2,12 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+/*  Nav Bar */
+
 header{
     display: flex;
     justify-content: center;
+    border: 1px solid black;
 }
 
 #nav-bar{
@@ -35,10 +38,12 @@ header{
     margin: 12px;
 }
 
+/*      Hero        */
+
 #hero{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    border: 1px solid black;
 }
 
 #hero > #hero-section{
@@ -46,6 +51,7 @@ header{
     flex-direction: row;
     flex-basis: 75%;
     border: 1px solid black;
+    margin: 50px;
 }
 
 #hero-section > #hero-cta{
@@ -74,11 +80,80 @@ header{
     margin: 4px;
     flex-basis: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #hero-image > img{
     border-radius: 0.75rem;
 }
 
+/*      Information Section      */
+
+#info{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#info > #info-section {
+    border: 1px solid black;
+    flex-basis: 75%;
+    flex-direction: column;
+    display: flex;
+    margin: 50px;
+}
+
+#info-section > #info-title{
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 8px;
+}
+
+#info-section > #info-entry{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: center;
+    
+}
+
+#info-entry > .entry{
+    border: 1px solid black;
+    margin: 35px;
+}
+
+
+/*  Quote */
+
+#quote{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#quote > #quote-section{
+    border: 1px solid black;
+    flex-basis: 75%;
+    flex-direction: column;
+    display: flex;
+    margin: 50px;
+}
+
+#quote-section > #quote-text{
+    border: 1px solid black;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#quote-section > #quote-cite > p{
+    border: 1px solid black;
+    text-align: end;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-style: italic;
+}
 
