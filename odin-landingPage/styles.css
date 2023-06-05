@@ -183,7 +183,6 @@ header, #hero{
 #action{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
     background-color: #FFE6C7;
 }
 
